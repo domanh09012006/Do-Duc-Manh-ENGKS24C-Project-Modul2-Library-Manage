@@ -61,6 +61,16 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit5]
+FileName=studentsData.bin
+CompileCpp=0
+Folder=Data
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit4]
 FileName=functions.c
 CompileCpp=0
 Folder=src
@@ -70,7 +80,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit4]
+[Unit3]
 FileName=functions.h
 CompileCpp=0
 Folder=include
@@ -80,22 +90,13 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit3]
+[Unit2]
 FileName=datatypes.h
-CompileCpp=0
 Folder=include
 Compile=1
 Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
-
-[Unit2]
-FileName=studentsData.bin
-Folder=Data
-Compile=0
-Link=0
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
+CompileCpp=0
 
