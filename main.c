@@ -15,15 +15,6 @@ int main(int argc, char *argv[]) {
         switch (choice){
             case 1:
             	system("cls");
-                adminMenu();
-                printf("\nGo back(b)? or Exit(0)?: ");
-                scanf(" %c", &check);
-                if(check == '0'){
-                    return 0;
-                }
-                break;
-            case 2:
-            	system("cls");
                 customerMenu();
                 printf("\nGo back(b)? or Exit(0)?: ");
                 scanf(" %c", &check);
@@ -31,7 +22,7 @@ int main(int argc, char *argv[]) {
                     return 0;
                 }
                 break;
-            case 3:
+            case 2:
             	system("cls");
                 bookMenu();
                 break;

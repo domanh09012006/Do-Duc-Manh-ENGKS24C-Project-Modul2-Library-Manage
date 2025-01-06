@@ -1,9 +1,10 @@
 #include<stdbool.h>
 typedef struct {
 	int id;
-	char title[20];
-	char author[20];
+	char title[50];
+	char author[50];
 	int price;
+	char category[50];
 }Book;
 typedef struct {
     int id;

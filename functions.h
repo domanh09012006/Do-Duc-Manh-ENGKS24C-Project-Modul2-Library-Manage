@@ -23,3 +23,8 @@ void searchCustomer(int n, Customer customers[]);
 void printCustomer(int n, Customer customers[]);
 void addCustomer(int *n, Customer customers[]);
 int checkIDCustomer(int id, Customer customers[], int n);
+int checkCustomerName(char name[], Customer customers[], int n);
+int checkPhoneNumber(char phone[]);
+void saveCustomerOfFile(int n, Customer customers[]);
+void loadCustomerFromFile(int *n, Customer customers[]);
+int checkName(char name[]);
